@@ -1,0 +1,111 @@
+.centre {
+    align-items: center;
+}
+
+.centre_head h1 {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 140%;
+    text-align: center;
+    color: #333333;
+    padding-bottom: 15px;
+}
+
+.centre_head h2 {
+    font-family: 'Noto Serif';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 41px;
+    text-align: center;
+    color: #333333;
+    padding-bottom: 60px;
+}
+
+.centre_btn {
+    padding-bottom: 60px;
+}
+
+.centre_btn ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.centre_btn ul li a {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #333333;
+    padding: 17px 37px;     
+    background: #F9F9F9;
+    border: 1px solid #D6D6D6;
+    position: relative;
+    transition: all .1s linear;
+}
+
+.centre_btn ul li:nth-child(2) a {
+    padding: 17px 54px; 
+}
+
+.centre_btn ul li:nth-child(3) a {
+    padding: 17px 56px; 
+}
+
+.centre_btn ul li:nth-child(4) a {
+    padding: 17px 33px; 
+}
+
+.centre_btn ul li:nth-child(5) a {
+    padding: 17px 22px; 
+}
+
+.centre_btn ul li:nth-child(6) a {
+    padding: 17px 32px;
+}
+
+.centre_btn ul li a::after {
+    content: "";
+    position: absolute;
+    height: 55px;
+    width: 165px;
+    left: 6px;
+    top: 6px;
+    border-radius: 0px;
+    background: #F9F9F9;
+    border: 1px solid #D6D6D6;
+    z-index: -1;
+    transition: all .3s linear;
+}
+
+.centre_btn ul li a:hover {
+    color: #fff;
+    background: #333333;
+}
+
+.centre_btn ul li a:hover::after {
+    border: none;
+}
+
+/* Centre images */
+
+.centre_img {
+    padding-bottom: 120px;
+}
+
+.box3 {
+    padding-bottom: 30px;
+}
+
+.box3, .box4 {
+    display: flex;
+    justify-content: space-between;
+}
+

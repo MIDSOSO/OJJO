@@ -1,0 +1,68 @@
+.banner {
+    background-image: url(../img/centre_bg.jpg);
+    margin-bottom: 120px;
+}
+
+.banner_head {
+    text-align: center;
+    padding-bottom: 100px;
+}
+
+.banner_head h1 {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 21px;
+    line-height: 140%;
+    text-align: center;
+    color: #FFFFFF;
+    padding-top: 100px;
+    padding-bottom: 15px;
+}
+
+.banner_head h2 {
+    font-family: 'Noto Serif';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 41px;
+    text-align: center;
+    color: #FFFFFF;
+    padding-bottom: 45px;
+}
+
+.banner_head p {
+    max-width: 740px;
+    text-align: center;
+    margin: 0 auto;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 140%;
+    text-align: center;
+    color: #FFFFFF;
+    padding-bottom: 60px;
+}
+
+.banner_head a {
+    padding: 15px 35px;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #333333;
+    background-color: #FFFFFF;
+    border: 1px solid #333333;
+    transition: all .3s linear;
+}
+
+.banner_head a:hover {
+    border: 1px solid #ffffff;
+    background-color: #333333;
+    color: #FFFFFF;
+}

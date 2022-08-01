@@ -1,0 +1,4 @@
+.blog_head ul {
+    flex-direction: column;
+    gap: 50px;
+}
